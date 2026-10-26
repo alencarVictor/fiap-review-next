@@ -43,7 +43,7 @@ Utilize o endpoint abaixo para carregar a lista inicial de produtos:
 
 #### Buscar produtos
 
-Utilize o endpoint abaixo para pesquisar produtos pelo nome ou por outros campos indexados pela busca da API:
+Utilize o endpoint abaixo para pesquisar produtos:
 
 `https://dummyjson.com/products/search?q=phone&limit=15`
 
@@ -71,18 +71,18 @@ Os produtos também possuem outras informações, que poderão ser utilizadas na
 
 ## CRITÉRIOS DE AVALIAÇÃO
 
-### 1. Organização do projeto — 1,0 ponto
+### 1. Organização do projeto
 
-- Estrutura de pastas e arquivos organizada: **0,5 ponto**.
-- Criação e utilização correta das interfaces ou dos tipos TypeScript para representar os dados da API: **0,5 ponto**.
+- Estrutura de pastas e arquivos organizada.
+- Criação e utilização correta das interfaces ou dos tipos TypeScript para representar os dados da API.
 - O projeto deverá utilizar App Router. O uso da estrutura `pages` acarretará penalidade de 50% da pontuação.
 - Os arquivos listados no `.gitignore` não deverão ser entregues. O próprio arquivo `.gitignore` deverá estar presente. A entrega de arquivos ignorados acarretará penalidade de 50% da pontuação.
 
-### 2. Login e autenticação — 3,0 pontos
+### 2. Login e autenticação
 
-- Criar uma página de login com campos de usuário e senha: **1,0 ponto**.
-- Criar uma rota de autenticação utilizando Route Handler do Next.js, validando a senha informada contra uma senha fixa armazenada em uma variável de ambiente: **1,0 ponto**.
-- Implementar tratamento de erros e redirecionamento para a área autenticada após o login. O usuário deverá continuar autenticado ao atualizar a página: **1,0 ponto**.
+- Criar uma página de login com campos de usuário e senha.
+- Criar uma rota de autenticação utilizando Route Handler do Next.js, validando a senha informada contra uma senha fixa armazenada em uma variável de ambiente.
+- Implementar tratamento de erros e redirecionamento para a área autenticada após o login. O usuário deverá continuar autenticado ao atualizar a página.
 
 Para esta atividade, não é necessário integrar um banco de dados ou implementar cadastro de usuários.
 
@@ -90,23 +90,23 @@ A senha deverá ser definida no arquivo `.env.local`, utilizando uma variável d
 
 Não exponha essa variável em componentes executados no navegador. A autenticação deverá ser validada no servidor.
 
-### 3. Tela de busca de produtos — 3,0 pontos
+### 3. Tela de busca de produtos
 
-- Após o login, exibir uma tela com um campo de busca e uma lista inicial de produtos carregada por meio de uma requisição GET à DummyJSON. Cada produto deverá exibir nome, imagem, categoria, preço, avaliação e estoque: **1,0 ponto**.
-- A listagem deverá apresentar, no máximo, 15 produtos por requisição: **1,0 ponto**.
-- Ao digitar no campo de busca, a aplicação deverá consultar a API e atualizar os resultados de acordo com o texto informado, mantendo o limite de 15 produtos: **1,0 ponto**.
+- Após o login, exibir uma tela com um campo de busca e uma lista inicial de produtos carregada por meio de uma requisição GET à DummyJSON. Cada produto deverá exibir nome, imagem, categoria, preço, avaliação e estoque.
+- A listagem deverá apresentar, no máximo, 15 produtos por requisição.
+- Ao digitar no campo de busca, a aplicação deverá consultar a API e atualizar os resultados de acordo com o texto informado, mantendo o limite de 15 produtos.
 
 A tela deverá apresentar estados adequados para carregamento, ausência de resultados e falha na comunicação com a API.
 
-### 4. Favoritando produtos — 2,0 pontos
+### 4. Favoritando produtos
 
-- Implementar um botão para adicionar ou remover um produto dos favoritos: **1,0 ponto**.
-- Salvar os favoritos no `localStorage`, mantendo-os disponíveis após atualizar a página: **0,5 ponto**.
-- Disponibilizar um botão de logout na parte superior da tela. Ao deslogar, os favoritos armazenados deverão ser limpos: **0,5 ponto**.
+- Implementar um botão para adicionar ou remover um produto dos favoritos.
+- Salvar os favoritos no `localStorage`, mantendo-os disponíveis após atualizar a página.
+- Disponibilizar um botão de logout na parte superior da tela. Ao deslogar, os favoritos armazenados deverão ser limpos.
 
 O sistema deverá permitir identificar visualmente quais produtos já estão favoritados.
 
-### 5. Deploy na Vercel — 1,0 ponto
+### 5. Deploy na Vercel
 
 - Publicar o projeto em um repositório Git e realizar o deploy na Vercel.
 - Inserir no arquivo `README.md` o link público da aplicação.
@@ -116,10 +116,10 @@ O link da aplicação deverá permitir acessar o projeto publicado.
 
 ---
 
-## EXTRA — 1,0 ponto
+## EXTRA
 
-- Criar uma página de detalhes do produto, acessível ao clicar em um produto da listagem, exibindo informações adicionais, como descrição, marca, desconto, política de devolução ou outras propriedades disponíveis na API: **0,5 ponto**.
-- Permitir adicionar ou remover o produto dos favoritos diretamente na página de detalhes: **0,5 ponto**.
+- Criar uma página de detalhes do produto, acessível ao clicar em um produto da listagem, exibindo informações adicionais, como descrição, marca, desconto, política de devolução ou outras propriedades disponíveis na API.
+- Permitir adicionar ou remover o produto dos favoritos diretamente na página de detalhes.
 
 ---
 

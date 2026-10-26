@@ -1,20 +1,5 @@
 # EXERCÍCIO DE PRÁTICA — NEXT.JS
 
-## INSTRUÇÕES PARA A ATIVIDADE
-
-1. Esta atividade deve ser realizada em trio.
-2. Não serão aceitos trabalhos exatamente iguais. Lembrem-se: somos pessoas diferentes, pensando de modo diferente para solucionar o mesmo problema.
-3. Não utilize imagens para criar o layout. As imagens dos produtos devem vir da API.
-4. Evite o uso de CSS interno ou inline.
-5. Utilize TypeScript para tipar os dados da aplicação.
-6. Envie a pasta compactada pelo sistema da FIAP, sem os arquivos listados no `.gitignore`.
-7. No rodapé da página, coloque o nome completo e o RA de todos os integrantes do trio. Na ausência de algum nome ou RA, haverá desconto de 1 ponto por integrante com informação faltante.
-8. Somente um integrante do trio precisa efetuar a entrega.
-9. A entrega da pasta `node_modules` acarretará penalidade de 50% dos pontos.
-10. O projeto deve utilizar Next.js com App Router, por meio da estrutura `src/app` ou `app`, conforme a configuração inicial do projeto.
-
-Boa atividade!
-
 ---
 
 ## CASE: Minha lista de produtos favoritos
